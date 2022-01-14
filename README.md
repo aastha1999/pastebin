@@ -10,6 +10,10 @@ Install the requirements:
 ```python
  pip install -r requirements.txt
 ```
+Go to app directory
+```python
+cd pb
+```
 Make migrations
 ```python
 python manage.py migrate
