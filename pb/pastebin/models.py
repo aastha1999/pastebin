@@ -14,5 +14,5 @@ class Paste(models.Model):
         return self.name or str(self.id)
     
     def get_absolute_url(self):
-        return reverse('pastebin_paste_detail', [self.id])
+        return reverse('pastebin_paste_detail', args=[self.id])
     
